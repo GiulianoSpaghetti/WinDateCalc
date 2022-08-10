@@ -5,17 +5,17 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace WinDateCalc
 {
     public partial class MainPage : ContentPage
     {
-        private static MyUserSettings mus = new MyUserSettings();
         public MainPage()
         {
             InitializeComponent();
-            data.Date = mus.data.Date;
+            data.Date=DateTime.Parse(Preferences.Get("Data", "1968-09-08"));
         }
 
         private void calcola_Click(object sender, EventArgs e)
@@ -23,8 +23,7 @@ namespace WinDateCalc
             DateTime d = DateTime.Now;
             TimeSpan differenza = data.Date.Date-d;
             risultato.Text ="Mancano " + differenza.Days + " giorni.";
-            mus.data = data.Date;
-            mus.Save();
+            Preferences.Set("Data", data.Date.Date.ToString());
         }
     }
 }
