@@ -15,7 +15,7 @@ namespace WinDateCalc
         public MainPage()
         {
             InitializeComponent();
-            data.Date=DateTime.Parse(Preferences.Get("Data", "1968-09-08"));
+            data.Date = DateTime.Parse(Preferences.Get("Data", DateTime.Now.ToString()));
         }
 
         private void calcola_Click(object sender, EventArgs e)

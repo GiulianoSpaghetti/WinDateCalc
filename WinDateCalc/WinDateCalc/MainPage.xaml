@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WinDateCalc.MainPage">
+             x:Class="WinDateCalc.MainPage"
+             BackgroundImage="background.jpg">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -16,7 +17,7 @@
         <Label Text="Inserisci la data" Grid.Column="0" Grid.Row="0" />
         <DatePicker x:Name="data" Grid.Row="0" Grid.Column="1" />
         <Button Text="OK" Clicked="calcola_Click" Grid.Row="1" Grid.Column="1"/>
-        <Label x:Name="risultato" Text="Creato da Giulio Sorrentino il coglione Italo-Napoletano"  Grid.Row="2" Grid.Column="1" />
+        <Label x:Name="risultato" Text="Creato da Giulio Sorrentino il coglione Italo-Napoletano. Si ringrazia la camionista betatester di IOS Francesca Milano."  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
     </Grid>
 
 </ContentPage>
