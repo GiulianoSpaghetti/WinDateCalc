@@ -10,3 +10,7 @@ Installa visual studio 2022, scarica il progetto usando git selezionando downloa
 # Donations
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
+
+You can donate even with Hype Card having my smartphone number. You know where you can find int? In my CV.
+Open Hype app, log in, tap on PAYMENTS, SEND MONEY, select my number from contacts, insert the import, INSERT THE MOTIVATION and read the istructions on the monitor.
+
