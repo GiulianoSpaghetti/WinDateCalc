@@ -1,12 +1,9 @@
-# WinDateCalc
+## WinDateCalc
 Calcola quanto tempo manca ad un dato evento salvando la data specifica
 
-# Come installare
+## Come installare
+Perché installare l'app quando è disponibile una versione che gira sul browser web? http://numeronesoft.ddns.net:8080/apps/windatecalc/
 
-# The old fashion compiled way
-
-Installa visual studio 2022, scarica il progetto usando git selezionando download from existing git repository e quindi compilalo.
-
-# Donations
+## Donations
 
 http://numerone.altervista.org/donazioni.php
